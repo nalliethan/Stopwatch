@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html{
+    background: linear-gradient(180deg,#861df7,#f7d264);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    border: 1px solid rgb(242, 195, 195);
+}
+
+#myH1{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#display{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.startBtn{
+    background-color:#028306; 
+}
+
+.stopBtn{
+    background-color:#c50243; 
+}
+
+.resetBtn{
+    background-color:#567b8d; 
+}
+
+button:hover{
+    opacity: 0.7;
+}
