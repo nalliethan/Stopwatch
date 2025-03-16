@@ -14,14 +14,17 @@ html{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    width: 100vw;
 }
 
 .container{
-    padding: 1.5rem;
+    min-width: 50%;
+    min-height: 50%;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 1.5rem;
     background-color: rgba(255, 255, 255, 0.1);
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
@@ -32,40 +35,46 @@ html{
 #myH1{
     color: #ffffff;
     text-transform: uppercase;
-    font-size: 1.5rem;
-    font-weight: 500;
+    font-size: 1.75rem;
+    font-weight: 600;
 }
 
 #display{
     color: #ffffff;
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 3rem;
+}
+
+#controls{
+    display: flex;
+    gap: 1.5rem;
 }
 
 button{
-    padding: 0.5rem 1rem;
+    padding: 1rem 1.3rem;
     border-radius: 10px;
     border: none;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
     color: rgb(255, 255, 255);
     font-weight: 500;
+    font-size: 1rem;
     text-transform: uppercase;
     cursor: pointer;
     transition: 0.3s ease;
 }
 
 .startBtn{
-    background-color:#028306; 
+    background-color:#225c07; 
 }
 
 .stopBtn{
-    background-color:#c50243; 
+    background-color:#a1063a; 
 }
 
 .resetBtn{
-    background-color:#567b8d; 
+    background-color:#385462; 
 }
 
 button:hover{
-    opacity: 0.7;
+    opacity: 0.6;
 }
