@@ -9,7 +9,7 @@
 
 body,
 html{
-    background: linear-gradient(180deg,#861df7,#f7d264);
+    background: linear-gradient(180deg,#f94f8b,#f7d264);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,7 +35,7 @@ html{
 #myH1{
     color: #ffffff;
     text-transform: uppercase;
-    font-size: 1.75rem;
+    font-size: 2rem;
     font-weight: 600;
 }
 
@@ -57,18 +57,18 @@ button{
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
     color: rgb(255, 255, 255);
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     cursor: pointer;
     transition: 0.3s ease;
 }
 
 .startBtn{
-    background-color:#225c07; 
+    background-color:#3cbe00; 
 }
 
 .stopBtn{
-    background-color:#a1063a; 
+    background-color:#fa2068; 
 }
 
 .resetBtn{
