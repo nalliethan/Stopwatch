@@ -36,7 +36,7 @@ function update(){
 
     let hours = Math.floor(elapsedTime / (1000 * 60 * 60));
     let minutes = Math.floor(elapsedTime / (1000 * 60) % 60);
-    let seconds = Math.floor(elapsedTime / (1000 % 60));
+    let seconds = Math.floor(elapsedTime / 1000 % 60);
     let milliseconds = Math.floor(elapsedTime % 1000 / 10);
 
     hours = String(hours).padStart(2,"0");
